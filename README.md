@@ -1,3 +1,12 @@
+# Welcome OT technical test
+
+This is the result of the technical test for Open Targets
+#### `yarn storybook`
+
+Builds the app docs storybook to show components and props.
+
+<br/>
+
 # Technical Test
 
 The Open Targets Platform aggregates and integrates data from more than 20 different data sources to create evidence that builds and scores associations between diseases and drug targets (human genes).
