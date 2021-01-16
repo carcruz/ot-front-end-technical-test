@@ -25,8 +25,6 @@ const Container = styled.div`
   }
 `;
 
-const ChartHeader = styled.h3``;
-
 const Column = styled.div`
   width: 50%;
   @media only screen and (max-width: 1024px) {
@@ -90,14 +88,7 @@ function RadialChartTick({ x, y, payload: { value } }) {
   return (
     <g transform={`translate(${x},${y})`}>
       <a href={url} target="_blank" rel="noopener noreferrer">
-        <text
-          x={0}
-          y={0}
-          textAnchor="end"
-          fill="#666"
-          fontSize={11}
-          href="/"
-        >
+        <text  x={0} y={20} textAnchor="middle" fill="#666" fontSize={11} href="/">
           {label}
         </text>
       </a>
@@ -128,7 +119,7 @@ function GeneRowSubContent({ row: { original: associatedGene } }) {
   return (
     <Container>
       <Column>
-        <ChartHeader>Association Score vs Data Type</ChartHeader>
+        <h3>Association Score vs Data Type</h3>
         <BarChart
           data={chartData}
           CustomizedXAxisTick={BarChartXAxisTick}
@@ -139,8 +130,7 @@ function GeneRowSubContent({ row: { original: associatedGene } }) {
         </BarChart>
       </Column>
       <Column>
-        <ChartHeader>Association Score vs Data Type</ChartHeader>
-
+        <h3>Association Score vs Data Type</h3>
         <RadialChart
           data={chartData}
           dataColor="#66c2a5"

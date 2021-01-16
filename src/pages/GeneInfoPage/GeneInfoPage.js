@@ -29,7 +29,7 @@ function GeneInfo() {
       {status === "error" && <span>Error: {error.message}</span>}
       {status !== "loading" && status !== "error" && (
         <div>
-          <AssociatedGenesTable data={data} dataColor="#b3de69" />
+          <AssociatedGenesTable data={data} />
         </div>
       )}
     </PageContainer>
