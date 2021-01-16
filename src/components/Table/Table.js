@@ -52,7 +52,7 @@ const TableRow = styled.tr`
 // ------------------------------------------
 /**
  * React table component
- * @description based react-query table
+ * @description based react-table component
  * @see https://react-table.tanstack.com/docs/overview
  * @param {{data: array, columns: array, renderRowSubComponent: function}} props
  */
