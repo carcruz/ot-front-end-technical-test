@@ -5,7 +5,7 @@ import Bar from './Bar'
 
 export default {
   component: BarChart,
-  title: "Bar Chart",
+  title: "Components/Bar Chart",
 };
 
 const Template = (args) => <BarChart {...args}>
