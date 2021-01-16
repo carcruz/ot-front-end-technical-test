@@ -6,7 +6,7 @@ import { ThemeProvider } from "styled-components";
 
 const theme = {
   fg: "palevioletred",
-  bg: "white"
+  bg: "white",
 };
 
 /**
